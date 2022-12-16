@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "z0TNBvJnGEGHJpgzhEWSVnm0pKY0iLpjNtzmO2A1XHM=",
+  "Source": "Kanini.EvaluationPortal.UI",
+  "BasePath": "_content/Kanini.EvaluationPortal.UI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

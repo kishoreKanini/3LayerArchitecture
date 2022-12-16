@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kanini.EvaluationPortalFile.DataAccessLayer", "Kanini.EvaluationPortalFile.DataAccessLayer\Kanini.EvaluationPortalFile.DataAccessLayer.csproj", "{13470887-F411-4D43-9BB9-57F4E15F241E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kanini.EvaluationPortal.Service", "Kanini.EvaluationPortal.Service\Kanini.EvaluationPortal.Service.csproj", "{A3437923-4E65-4F11-8722-C585A4996B2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kanini.EvaluationPortal.UI", "Kanini.EvaluationPortal.UI\Kanini.EvaluationPortal.UI.csproj", "{DDDB5E1E-13D2-4C27-8268-A393B64727B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13470887-F411-4D43-9BB9-57F4E15F241E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13470887-F411-4D43-9BB9-57F4E15F241E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13470887-F411-4D43-9BB9-57F4E15F241E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13470887-F411-4D43-9BB9-57F4E15F241E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3437923-4E65-4F11-8722-C585A4996B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3437923-4E65-4F11-8722-C585A4996B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3437923-4E65-4F11-8722-C585A4996B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3437923-4E65-4F11-8722-C585A4996B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDDB5E1E-13D2-4C27-8268-A393B64727B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDDB5E1E-13D2-4C27-8268-A393B64727B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDDB5E1E-13D2-4C27-8268-A393B64727B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDDB5E1E-13D2-4C27-8268-A393B64727B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
