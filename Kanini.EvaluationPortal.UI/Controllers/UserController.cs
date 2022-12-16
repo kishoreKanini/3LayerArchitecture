@@ -1,7 +1,9 @@
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Kanini.EvaluationPortalFile.DataAccessLayer.Interface;
 using Kanini.EvaluationPortalFile.DataAccessLayer.Entity;
 using Microsoft.AspNetCore.Authorization;
+using Kanini.EvaluationPortal.UI.Query;
 
 namespace Kanini.EvaluationPortal.UI.Controllers
 {
@@ -10,16 +12,19 @@ namespace Kanini.EvaluationPortal.UI.Controllers
     [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
+        private readonly IMediator _mediator;
        private readonly IUserRepository userRepository;
-        public UserController(IUserRepository _userRepository)
+        public UserController(IUserRepository _userRepository, IMediator mediator)
         {
             this.userRepository = _userRepository;
+            this._mediator = mediator;
         }
 
         [HttpGet("GetAllUsers")]
-        public IActionResult GetAllUsers(){
-            var res = this.userRepository.GetAllUsers();
-            return Ok(res);
+        public IActionResult GetAllUsers()
+        {
+            var res2 =  _mediator.Send(new GetAllUsersQuery());
+            return Ok(res2);
         }
 
         [HttpPost("AddUser")]

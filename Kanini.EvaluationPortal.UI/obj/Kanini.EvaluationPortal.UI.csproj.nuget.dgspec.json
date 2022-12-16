@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.UI\\Kanini.EvaluationPortal.UI.csproj": {}
+    "D:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.UI\\Kanini.EvaluationPortal.UI.csproj": {}
   },
   "projects": {
-    "D:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.Service\\Kanini.EvaluationPortal.Service.csproj": {
+    "d:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.Service\\Kanini.EvaluationPortal.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.Service\\Kanini.EvaluationPortal.Service.csproj",
+        "projectUniqueName": "d:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.Service\\Kanini.EvaluationPortal.Service.csproj",
         "projectName": "Kanini.EvaluationPortal.Service",
-        "projectPath": "D:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.Service\\Kanini.EvaluationPortal.Service.csproj",
+        "projectPath": "d:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.Service\\Kanini.EvaluationPortal.Service.csproj",
         "packagesPath": "C:\\Users\\kishore.tarun\\.nuget\\packages\\",
-        "outputPath": "D:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.Service\\obj\\",
+        "outputPath": "d:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kishore.tarun\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,14 +70,14 @@
         }
       }
     },
-    "d:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.UI\\Kanini.EvaluationPortal.UI.csproj": {
+    "D:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.UI\\Kanini.EvaluationPortal.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.UI\\Kanini.EvaluationPortal.UI.csproj",
+        "projectUniqueName": "D:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.UI\\Kanini.EvaluationPortal.UI.csproj",
         "projectName": "Kanini.EvaluationPortal.UI",
-        "projectPath": "d:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.UI\\Kanini.EvaluationPortal.UI.csproj",
+        "projectPath": "D:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.UI\\Kanini.EvaluationPortal.UI.csproj",
         "packagesPath": "C:\\Users\\kishore.tarun\\.nuget\\packages\\",
-        "outputPath": "d:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.UI\\obj\\",
+        "outputPath": "D:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kishore.tarun\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,8 +94,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.Service\\Kanini.EvaluationPortal.Service.csproj": {
-                "projectPath": "D:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.Service\\Kanini.EvaluationPortal.Service.csproj"
+              "d:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.Service\\Kanini.EvaluationPortal.Service.csproj": {
+                "projectPath": "d:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.Service\\Kanini.EvaluationPortal.Service.csproj"
               },
               "D:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortalFile.DataAccessLayer\\Kanini.EvaluationPortalFile.DataAccessLayer.csproj": {
                 "projectPath": "D:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortalFile.DataAccessLayer\\Kanini.EvaluationPortalFile.DataAccessLayer.csproj"
@@ -113,6 +113,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[6.0.12, )"

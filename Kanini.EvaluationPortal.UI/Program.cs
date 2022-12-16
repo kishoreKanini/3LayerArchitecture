@@ -1,10 +1,13 @@
+using MediatR;
 using System.Text;
+using System.Reflection;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Kanini.EvaluationPortal.Service.Context;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Kanini.EvaluationPortal.Service.Model.Repository;
 using Kanini.EvaluationPortalFile.DataAccessLayer.Interface;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
+//IMP - install MediatR.Extensions.Microsoft.DependencyInjection //
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +17,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
 
 builder.Services.AddScoped<IUserRepository,UserRepository>();
 
