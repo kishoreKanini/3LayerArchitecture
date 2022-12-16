@@ -86,3 +86,6 @@ D:\HackathonPrep\3LayerArchitecture\Kanini.EvaluationPortal.UI\bin\Debug\net6.0\
 D:\HackathonPrep\3LayerArchitecture\Kanini.EvaluationPortal.UI\bin\Debug\net6.0\System.Text.Json.dll
 D:\HackathonPrep\3LayerArchitecture\Kanini.EvaluationPortal.UI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\HackathonPrep\3LayerArchitecture\Kanini.EvaluationPortal.UI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+d:\HackathonPrep\3LayerArchitecture\Kanini.EvaluationPortal.UI\bin\Debug\net6.0\MediatR.dll
+d:\HackathonPrep\3LayerArchitecture\Kanini.EvaluationPortal.UI\bin\Debug\net6.0\MediatR.Contracts.dll
+D:\HackathonPrep\3LayerArchitecture\Kanini.EvaluationPortal.UI\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

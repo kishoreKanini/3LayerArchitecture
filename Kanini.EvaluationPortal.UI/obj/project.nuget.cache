@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Ss5wowzs+6D855TM/RsnEXNN9kXM5feUmC82IkWmDB073A2uHGn0prU+BrdA/BaZLmcC1rcXRKGaIqw1w5HQvA==",
+  "dgSpecHash": "Hf1fQE01gUjr2QiTTyGJXCe2OXrlY4VJggNHwr0qGCgXELnaC/zai+joB2D4mPdne9Y2olTF88ZZXJZwuYO/tA==",
   "success": true,
-  "projectFilePath": "d:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.UI\\Kanini.EvaluationPortal.UI.csproj",
+  "projectFilePath": "D:\\HackathonPrep\\3LayerArchitecture\\Kanini.EvaluationPortal.UI\\Kanini.EvaluationPortal.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kishore.tarun\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\kishore.tarun\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\kishore.tarun\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\kishore.tarun\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\kishore.tarun\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\kishore.tarun\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.12\\microsoft.aspnetcore.authentication.jwtbearer.6.0.12.nupkg.sha512",
     "C:\\Users\\kishore.tarun\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\kishore.tarun\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
